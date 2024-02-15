@@ -1,5 +1,5 @@
 import { Link, Head } from "@inertiajs/react";
-import background from "../../../assets/images/ui/background.jpg";
+import background from "../../../assets/images/ui/hero-bg.webp";
 import logo from "../../../assets/images/ui/logo.png";
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
