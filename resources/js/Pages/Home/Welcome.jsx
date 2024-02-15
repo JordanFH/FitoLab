@@ -69,7 +69,7 @@ export default function Welcome(props) {
                                     width="175px"
                                 />
                                 <h2 className="text-xl font-semibold text-gray-900 dark:text-white">
-                                    Bienvenido - Centro de Especialización San Marcos
+                                    Bienvenido - FitoLab
                                 </h2>
 
                                 <p className="text-center mt-6 text-gray-500 dark:text-gray-200">

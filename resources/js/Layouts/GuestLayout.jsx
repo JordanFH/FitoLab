@@ -9,9 +9,9 @@ export default function Guest({ children }) {
             localStorage.theme && localStorage.theme !== "null"
                 ? localStorage.theme
                 : window.matchMedia &&
-                  window.matchMedia("(prefers-color-scheme: dark)").matches
-                ? "dark"
-                : "light"
+                    window.matchMedia("(prefers-color-scheme: dark)").matches
+                    ? "dark"
+                    : "light"
         );
         const colorTheme = theme === "dark" ? "light" : "dark";
 
@@ -48,7 +48,7 @@ export default function Guest({ children }) {
                             width="175px"
                         />
                         <h2 className="hover:underline text-xl text-center font-semibold text-gray-900 dark:text-white">
-                            Centro de Especialización San Marcos
+                            FitoLab
                         </h2>
                     </Link>
                 </div>

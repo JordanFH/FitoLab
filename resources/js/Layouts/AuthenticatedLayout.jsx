@@ -405,7 +405,7 @@ export default function Authenticated({ auth, header, children }) {
                                                 }` + " hover:underline"
                                             }
                                         >
-                                            C.E. San Marcos
+                                            FitoLab
                                         </span>
                                     </Link>
                                     <button
