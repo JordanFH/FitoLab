@@ -22,7 +22,7 @@ use Inertia\Inertia;
 /* Home */
 Route::get('/', function () {
     if (Auth::check()) {
-        return Inertia::render('Dashboard/Dashboard');
+        return redirect(route('dashboard'));
     }
     return Inertia::render('Home/Welcome', [
         'canLogin' => Route::has('login'),
